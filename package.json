@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "LibraryBeta",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "npm-run-all --parallel dev:*",
     "clean": "rm -rf _site",
     "build:postcss": "NODE_ENV=production postcss src/styles/styles.css -o dist/assets/styles/styles.css",
-    "build:eleventy": "NODE_ENV=production eleventy --pathprefix 'Portfolio'",
+    "build:eleventy": "NODE_ENV=production eleventy --pathprefix 'LibraryBeta'",
     "dev:postcss": "NODE_ENV=development postcss src/styles/styles.css -o dist/assets/styles/styles.css -w",
     "dev:eleventy": "npx @11ty/eleventy --serve"
   },
