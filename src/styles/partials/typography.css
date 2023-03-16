@@ -1,0 +1,60 @@
+html{
+  font-size:16px;
+  @apply font-body text-dark;
+  @screen md{
+    font-size: 14px;
+  }
+}
+h1,h2,h3,h4,h5,h6,p,a,button,label,textarea,input{
+  line-height: 1.3em;
+  &.light{
+    @apply text-light;
+  }
+}
+h1,h2,h3,h4,h5,h6{
+  @apply font-header;
+  line-height: 106%;
+  font-weight: 500;
+  &.huge{
+    font-size: 4.69rem;
+  }
+  @screen md{
+    line-height: 1.2em;
+  }
+}
+h1,.h1{
+  font-size: 3.75rem;
+}
+h2,.h2{
+  font-size: 3.75rem;
+}
+h3,.h3{
+  font-size: 2rem;
+}
+h4,.h4{
+  font-size: 2rem;
+}
+@screen md{
+  h1{
+    font-size: 2.5rem;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+}
+p,a,label,button,input,select,textarea{
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.5em;
+  @apply font-body;
+}
+.font-fancy{
+  font-weight: 400;
+}
+span.font-fancy{
+  font-size: 1.2em;
+  font-weight: 400;
+  &.bigger{
+    font-size: 1.6em;
+  }
+}

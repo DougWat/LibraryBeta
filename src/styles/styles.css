@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "/partials/helpers.css";
+@import "/partials/structure.css";
+@import "/partials/typography.css";
+
+@import "/partials/base.css";
+@import "/partials/home.css";
