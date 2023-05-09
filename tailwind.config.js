@@ -18,21 +18,20 @@ module.exports = {
     extend: {
         fontFamily:{
           body: ["Open Sans", "sans-serif"],
-          header: ["Open Sans", "sans-serif"],
+          header: ["Poppins", "sans-serif"],
         },
         colors:{
-          primary:"#4DE191",
-          "primary-light":"#08FDD8",
-          secondary:"#14213D"
+
         },
         backgroundColor:{
-          dark:'#1D1D1D',
-          gray:'#847979',
-          light:"#f5f5f5;"
+          dark:'#1B1B1B',
+          gray:'#F9F9F9',
+          light:"#FFF;"
         },
         textColor:{
           light:'#FFFBFF',
-          dark:'#0B0A07'
+          lightish:'#d5d5d5',
+          dark:'#121417'
         }
     },
   },
