@@ -87,4 +87,7 @@
         list-style: circle;
         padding-left: 20px;
     }
+    a{
+        text-decoration: underline;
+    }
 }
